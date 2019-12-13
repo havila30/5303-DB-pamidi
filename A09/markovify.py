@@ -1,13 +1,14 @@
 import markovify
 
 with open("grimms_fairy_tales.txt", errors ="ignore") as f:
+text = f.read()
 
-for i in range(5):
-    print(Text_sentence())
+text_model=markovify.Text(text)
+
 
 print ("\n")
 
 for i in range(1000000):
-    print(model_sentence(250))
+print(make_short_sentence(250))
 
 
