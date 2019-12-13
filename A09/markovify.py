@@ -8,6 +8,6 @@ for i in range(5):
 print ("\n")
 
 for i in range(1000000):
-    print(model_combo.make_short_sentence(280))
+    print(model_sentence(250))
 
 
